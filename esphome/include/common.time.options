@@ -8,9 +8,9 @@ time:
     update_interval: 6h
   # Set specific sntp servers to use
     servers: 
-      - 2.au.pool.ntp.org
-      - 1.au.pool.ntp.org
-      - 0.au.pool.ntp.org
+      - 0.pool.ntp.org
+      - 1.pool.ntp.org
+      - 2.pool.ntp.org
   # Publish the time the device was last restarted
     on_time_sync:
       then:
